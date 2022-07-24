@@ -1,0 +1,127 @@
+body{
+    background-color: yellowgreen; 
+} 
+
+h1{
+    text-align: center;
+    width: 100%;
+
+}
+h3{
+    text-align: center;
+}
+.container h1{
+    color: blue;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bike-1 {
+    /* border: 1px solid; */
+    /* overflow: hidden;  */ 
+    min-height: 50%;
+    display: flex;  
+    flex-direction: row;
+  } 
+ 
+.Scooty img{
+    width: 100%; 
+    height: 50%;
+    /* display: flex; */ 
+} 
+
+.Scooty{  
+  display: inline-block;
+  width: 32%;
+  padding: 1%;
+} 
+.Scooty h3{
+     color: black; 
+     font-size: 1.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin-bottom: 4rem;
+} 
+p{
+    color: red;
+    margin-top: -9%; 
+    text-align: center;
+} 
+.web{
+    text-align: center;
+}
+.cont{
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+} 
+form{
+    text-align: center; 
+    margin-top: -15%;
+} 
+form input{ 
+    width: 50%; 
+    height:1.9rem; 
+    border-color: white;
+}  
+.name{
+    /* font-size: 150%;  */
+    outline: none; 
+    margin-bottom: .2em;
+    background-color: white;
+
+} 
+form textarea{
+    width: 47%;  
+    outline: none; 
+    padding-top: .5rem; 
+    padding-left: .5rem; 
+    padding-right: .5rem;
+    background-color: white;
+}
+
+p{
+    font-size: 1.8rem; 
+    color: darkblue;
+}  
+.marquee h1{
+    color: black;
+}
+.web a i{
+    font-size: 1.5rem; 
+    margin-top: -1rem;
+    margin-bottom: 1rem;
+    color: darkgreen;
+} 
+.button button{
+    font-size: 1.8rem; 
+    background-color: darkblue;
+    outline: none; 
+    color: red; 
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+} 
+form h1{
+    color: darkgreen; 
+    font-size: 2.3rem; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+@media (max-width:500px){
+    .bike-1{
+        flex-direction: column;  
+        display: flex;
+        align-items: center;
+        
+        justify-content: center;
+    }
+    
+    .Scooty { 
+        height: 80%;
+       width: 80%;
+    }
+    
+
+} 
